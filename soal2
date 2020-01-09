@@ -80,5 +80,5 @@ int main() {
     cout << endl;
     cout << "Total penjualan : " << tot_pen << endl;
     cout << "Item yang paling laku adalah " << laku << endl;
-    //pusing woy
+    
 }
