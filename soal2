@@ -25,6 +25,9 @@ int main() {
     int max = 0;
     int n=3, tot_pen=0;
     
+    cout <<" SEMBAKO : beras, aqua, ikan, minyak, terigu, telor, gula, daging, jagung, garam."<<endl;
+    cout <<endl;
+    
     //pemberian harga barang berdasarkan nama 
     for (int i=0; i < n; i++){
         cout << "Nama Item Barang : ";
@@ -73,7 +76,7 @@ int main() {
     cout <<endl;
     //output tabel
     cout << "Nama item barang | Harga per item | jumlah terjual | total per item"<< endl;
-    for(int i=0; i < 3; i++){
+    for(int i=0; i < n; i++){
         cout << item[i].nama <<"                " << item[i].harga << "           "<< item[i].jum_jual<< "                " << item[i].total <<endl;
     }
     
